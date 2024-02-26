@@ -1,0 +1,38 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+.resolve/
+
+# CocoaPods
+Pods/
+*.lock
+!Podfile.lock
+
+# Carthage
+Carthage/Checkouts
+Carthage/Build
+
+# Other
+/.idea
+/.vscode
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
